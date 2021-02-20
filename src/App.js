@@ -10,8 +10,10 @@ import HomePage from './components/HomePage'
 const App = () => {
     return (
     <Router>
+    <Switch>
         <Header />
         <HomePage />
+        </Switch>
     </Router>
     )
 }
