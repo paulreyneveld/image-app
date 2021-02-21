@@ -27,16 +27,16 @@ html {
       .link:visited {
         padding: 0.5rem 1rem;
         margin: 2rem;
-        color: #887474;
+        color: #443c3c;
         text-decoration: none;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         border-bottom: 2px solid transparent;
         transition: all 0.3s;
       }
   
       .link:hover,
       .link:active {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #443c3c;
       }
     }
   }
