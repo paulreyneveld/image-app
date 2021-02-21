@@ -7,6 +7,7 @@ import {
 import Header from './components/Header'
 import HomePage from './components/HomePage'
 import Gallery from './components/Gallery'
+import NotFound from './components/NotFound'
 
 const App = () => {
     return (
@@ -19,6 +20,9 @@ const App = () => {
     <Route exact path='/gallery'>
         <Header />
         <Gallery />
+    </Route>
+    <Route>
+        <NotFound />
     </Route>
     </Switch>
     </Router>
