@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background: rgb(230, 230, 230);
     font-family: Noto Sans, Helvetica, sans-serif;
     color: #666;
     letter-spacing: 1px;
@@ -27,7 +27,7 @@ html {
       .link:visited {
         padding: 0.5rem 1rem;
         margin: 2rem;
-        color: #fff;
+        color: #887474;
         text-decoration: none;
         text-transform: uppercase;
         border-bottom: 2px solid transparent;
@@ -42,16 +42,16 @@ html {
   }
   
   h1 {
-    text-shadow: 0 0 2rem #fefcc9, 1rem -1rem 3rem #feec85,
-      -2rem -2rem 4rem #ffae34, 2rem -4rem 5rem #ec760c, -2rem -6rem 6rem #cd4606,
-      0 -8rem 6rem #973716, 1rem -9rem 8rem #451b0e;
+    // text-shadow: 0 0 2rem #fefcc9, 1rem -1rem 3rem #feec85,
+    //   -2rem -2rem 4rem #ffae34, 2rem -4rem 5rem #ec760c, -2rem -6rem 6rem #cd4606,
+    //   0 -8rem 6rem #973716, 1rem -9rem 8rem #451b0e;
     display: inline-block;
     font-size: 200%;
   }
   
   h1,
   h2 {
-    color: #666;
+    color: #000;
   }
   
   /* ----- header css ends here ----- */
